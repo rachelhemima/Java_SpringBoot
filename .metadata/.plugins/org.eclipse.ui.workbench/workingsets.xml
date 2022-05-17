@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1649418155270_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1649418155280_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1649653108971_3" label="first-boot-app" name="first-boot-app"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1652692733631_4" label="awscicd" name="awscicd">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/awscicd" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1652702673372_5" label="springbootvalidation-day43" name="springbootvalidation-day43">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springbootvalidation" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1652704183242_6" label="springboot-mvcjsp42" name="springboot-mvcjsp42">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/springboot-mvcjsp42" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1649418157161_2" label="Window Working Set" name="Aggregate for window 1649418157161"/>
+</workingSetManager>

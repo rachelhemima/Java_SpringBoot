@@ -1,0 +1,19 @@
+package com.jobiak.mvcforms.model;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+//JPA->standard specification for developing ORM framework
+
+@Entity
+@Table(name="userdata")
+@Data
+public class User{
+
+	private Long userId;
+	private String name;
+	private String email;
+	private String mobile;
+		
+	
+}

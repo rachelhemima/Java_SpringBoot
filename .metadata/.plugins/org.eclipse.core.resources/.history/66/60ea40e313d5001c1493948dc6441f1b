@@ -1,0 +1,57 @@
+2022-05-16 17:35:18.853  INFO 21164 --- [restartedMain] c.j.m.SpringbootMvcjsp42Application      : Starting SpringbootMvcjsp42Application using Java 17.0.2 on JOBIAK-FR-22 with PID 21164 (C:\Jobiak\spring boot\springboot-mvcjsp42\target\classes started by Fresher in C:\Jobiak\spring boot\springboot-mvcjsp42)
+2022-05-16 17:35:18.854  INFO 21164 --- [restartedMain] c.j.m.SpringbootMvcjsp42Application      : No active profile set, falling back to 1 default profile: "default"
+2022-05-16 17:35:18.922  INFO 21164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-16 17:35:18.922  INFO 21164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2022-05-16 17:35:18.961  INFO 21164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-16 17:35:18.961  INFO 21164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-16 17:35:18.961  INFO 21164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-16 17:35:18.985  INFO 21164 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-05-16 17:35:18.985  INFO 21164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-16 17:35:18.985  INFO 21164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 130 ms
+2022-05-16 17:35:18.993  INFO 21164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-05-16 17:35:18.994  INFO 21164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-05-16 17:35:18.994  INFO 21164 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b21dd0bb-d4eb-4e07-86f6-4af707e9d1a0'
+2022-05-16 17:35:19.007  INFO 21164 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-16 17:35:19.009  INFO 21164 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-16 17:35:19.012  INFO 21164 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-16 17:35:19.013  INFO 21164 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-16 17:35:19.023  WARN 21164 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-16 17:35:19.073  INFO 21164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-16 17:35:19.082  INFO 21164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-16 17:35:19.085  INFO 21164 --- [restartedMain] c.j.m.SpringbootMvcjsp42Application      : Started SpringbootMvcjsp42Application in 0.259 seconds (JVM running for 2007.747)
+2022-05-16 17:35:19.086  INFO 21164 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-16 17:35:35.293  INFO 21164 --- [RMI TCP Connection(53)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-16 17:35:35.308  INFO 21164 --- [RMI TCP Connection(53)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-16 17:35:35.308  INFO 21164 --- [RMI TCP Connection(53)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-16 17:35:35.511  WARN 21164 --- [RMI TCP Connection(53)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-16 17:35:35.511  INFO 21164 --- [RMI TCP Connection(53)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-05-16 17:35:35.511  INFO 21164 --- [RMI TCP Connection(53)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-05-16 17:35:38.035  INFO 18316 --- [restartedMain] c.j.m.SpringbootMvcjsp42Application      : Starting SpringbootMvcjsp42Application using Java 17.0.2 on JOBIAK-FR-22 with PID 18316 (C:\Jobiak\spring boot\springboot-mvcjsp42\target\classes started by Fresher in C:\Jobiak\spring boot\springboot-mvcjsp42)
+2022-05-16 17:35:38.036  INFO 18316 --- [restartedMain] c.j.m.SpringbootMvcjsp42Application      : No active profile set, falling back to 1 default profile: "default"
+2022-05-16 17:35:38.071  INFO 18316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-16 17:35:38.072  INFO 18316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-16 17:35:38.478  INFO 18316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-16 17:35:38.491  INFO 18316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2022-05-16 17:35:38.900  INFO 18316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-16 17:35:38.907  INFO 18316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-16 17:35:38.908  INFO 18316 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-16 17:35:39.041  INFO 18316 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-05-16 17:35:39.047  INFO 18316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-16 17:35:39.047  INFO 18316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 975 ms
+2022-05-16 17:35:39.071  INFO 18316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-16 17:35:39.198  INFO 18316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-16 17:35:39.207  INFO 18316 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:96cfc711-c962-44dd-b385-41caec4cb787'
+2022-05-16 17:35:39.319  INFO 18316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-16 17:35:39.356  INFO 18316 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-05-16 17:35:39.462  INFO 18316 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-16 17:35:39.540  INFO 18316 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-16 17:35:39.699  INFO 18316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-16 17:35:39.705  INFO 18316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-16 17:35:39.734  WARN 18316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-16 17:35:39.950  INFO 18316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-16 17:35:39.991  INFO 18316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-16 17:35:39.999  INFO 18316 --- [restartedMain] c.j.m.SpringbootMvcjsp42Application      : Started SpringbootMvcjsp42Application in 2.248 seconds (JVM running for 2.807)
+2022-05-16 17:36:12.512  INFO 18316 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-16 17:36:12.512  INFO 18316 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-16 17:36:12.513  INFO 18316 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-16 17:36:44.327  INFO 18316 --- [http-nio-8081-exec-4] c.j.mvcjsp.controller.LoginController    : entered get method

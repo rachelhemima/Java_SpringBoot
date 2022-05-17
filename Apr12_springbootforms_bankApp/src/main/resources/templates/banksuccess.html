@@ -1,0 +1,13 @@
+<html xmlns:th="http://www.thymlead.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Jobiak.ai</title>
+</head>
+<body>
+<h1>Account Details</h1>
+U r Account No:<h2 th:text="${bank.accountId}" style='background-color: rgb(255, 128, 255);'></h2>
+Account Holder Name:<h2 th:text="${bank.name}" style='background-color: rgb(0, 255, 255);'></h2>
+U r Mobile :<h2 th:text="${bank.mobile}" style='background-color: rgb(0, 255, 64);'></h2>
+Balance:<h2 th:text="${bank.balance}" style='background-color: rgb(255, 255, 0);'></h2>
+</body>
+</html>
